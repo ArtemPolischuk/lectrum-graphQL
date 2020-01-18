@@ -1,5 +1,6 @@
 // Core
 import React from 'react';
+import dayjs from 'dayjs';
 
 // Hooks
 import { useQueryAllCustomers } from './hooks/useQueryAllCustomers';
@@ -20,16 +21,20 @@ export const List = () => {
   }
 
   const customersJSX = customers.map(({ username, name, dateCreated }) => (
-    <p key={username}>
-      <p>Name: {name}</p>
-      <p>dateCreated: {dateCreated}</p>
-    </p>
+    <tr key={username}>
+      <th>Name :</th><td>{name}</td>
+      <th>dateCreated :</th><td>{dayjs(dateCreated).format('YYYY MM--DD--HH:mm:ss')}</td>
+    </tr>
   ));
 
   return (
     <>
       <h1>Customers</h1>
-      {customersJSX}
+      <table>
+        <tbody>
+        {customersJSX}
+        </tbody>
+      </table>
     </>
   )
 };
