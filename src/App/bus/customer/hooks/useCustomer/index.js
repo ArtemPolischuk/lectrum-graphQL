@@ -2,6 +2,8 @@ import { useState } from 'react';
 import {useMutation} from '@apollo/react-hooks';
 import { loader } from 'graphql.macro';
 
+// Hooks
+
 // Mutations
 const mutationCreateAccount = loader('./gql/mutationCreateAccount.graphql');
 

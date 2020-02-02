@@ -1,12 +1,14 @@
 // Core
-import { useLazyQuery } from '@apollo/react-hooks';
 import { loader } from 'graphql.macro';
+import { useQuery} from '@apollo/react-hooks';
 
 // Queries
 const queryAllAvailablePets = loader('./gql/queryAllAvailablePets.graphql');
 
 export const useQueryAllAvailablePets = () => {
-  const [getAllAvailablePets, { loading, error, data }] = useLazyQuery(queryAllAvailablePets);
+  const { loading, error, data } = useQuery(queryAllAvailablePets);
 
-  return { getAllAvailablePets, loading, error, pets: data && data.allAvailablePets }
+  const pets = data ? data.allAvailablePets : null;
+
+  return { loading, error, pets }
 };

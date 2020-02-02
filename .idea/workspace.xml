@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="173b7a1b-f041-408c-a419-23b0f131874d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/gql/mutationCreateAccount.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/gql/queryPetById.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/gql/mutationLogIn.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/customer/logIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/checkOutPet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/checkinPet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/gql/mutationCheckOut.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/gql/mutationCheckIn.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/usePetReturned/gql/subscriptionPetReturned.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/usePetReturned/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/gql/queryAllCheckedOutPets.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/bus/pet/petReturned.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/components/HW/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/customer/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/customer/customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/bus/customer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/customer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/customer/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/customer/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/bus/pet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/bus/pet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/init/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/init/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,33 +46,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="391">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#8#34#0" expanded="true" />
-                <element signature="e#140#150#0" expanded="true" />
+                <element signature="e#163#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/checkinPet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="77" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#8#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/init/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="1139">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#8#53#0" expanded="true" />
               </folding>
@@ -64,31 +89,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/gql/mutationCreateAccount.graphql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="25" column="116" selection-start-line="25" selection-start-column="116" selection-end-line="25" selection-end-column="116" />
+            <state relative-caret-position="442">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/bus/customer/customer.js">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/petReturned.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#8#34#0" expanded="true" />
+                <element signature="e#89#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/checkOutPet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <marker date="1580675852303" expanded="true" signature="291:374" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#8#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +157,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="GraphQL File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>link</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,38 +174,55 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App/init/index.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/gql/queryAvailablePets.graphql" />
-        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/counter.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/list.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllPets/gql/useQueryAllPets.graphql" />
-        <option value="$PROJECT_DIR$/src/App/bus/pet/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/specialList.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/gql/queryAllAvailablePets.graphql" />
-        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllPets/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useQueryAllCustomers/gql/queryAllCustomers.graphql" />
         <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useQueryAllCustomers/index.js" />
-        <option value="$PROJECT_DIR$/src/App/bus/customer/list.js" />
         <option value="$PROJECT_DIR$/.graphqlconfig" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/useQueryProfile.graphql" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/queryPetById.graphql" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/index.js" />
         <option value="$PROJECT_DIR$/src/App/bus/pet/profile.js" />
-        <option value="$PROJECT_DIR$/src/App/bus/customer/index.js" />
-        <option value="$PROJECT_DIR$/src/App/index.js" />
-        <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js" />
-        <option value="$PROJECT_DIR$/src/App/bus/customer/customer.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/gql/mutationCreateAccount.graphql" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/asd.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/login 2.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/login 2.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/gql/mutationLogIn.graphql" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/login.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/logIn.js" />
+        <option value="$PROJECT_DIR$/src/App/index.js" />
+        <option value="$PROJECT_DIR$/src/App/components/HW/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/gql/mutationCheckOut.graphql" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/customer.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/customer/list.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/gql/queryAllAvailablePets.graphql" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/checkinPet.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/checkOutPet.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/index.js" />
+        <option value="$PROJECT_DIR$/src/App/bus/pet/index.js" />
         <option value="$PROJECT_DIR$/src/App/init/client.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-665" />
+    <option name="y" value="-1058" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -197,9 +277,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="bus" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
-              <item name="useCustomer" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
@@ -207,9 +285,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="bus" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
               <item name="hooks" type="462c0819:PsiDirectoryNode" />
-              <item name="useCustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useCheckin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="usePetReturned" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="usePetReturned" type="462c0819:PsiDirectoryNode" />
               <item name="gql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,6 +326,50 @@
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="bus" type="462c0819:PsiDirectoryNode" />
               <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useQueryAllAvailablePets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useQueryAllAvailablePets" type="462c0819:PsiDirectoryNode" />
+              <item name="gql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useQueryAllCheckedOutPets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useQueryAllCheckedOutPets" type="462c0819:PsiDirectoryNode" />
+              <item name="gql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lectrum-graph-ql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="pet" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="useQueryAvailablePets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lectrum-graph-ql" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +388,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/App/bus/pet/hooks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -246,7 +397,14 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App/bus/pet/hooks" />
+      <recent name="$PROJECT_DIR$/src/App/bus/pet" />
+      <recent name="$PROJECT_DIR$/src/App/bus/customer/hooks" />
+      <recent name="$PROJECT_DIR$/src/App/bus/customer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App/bus/customer" />
       <recent name="$PROJECT_DIR$/src/App/bus/pet/hooks/useQveryProfile/gql" />
       <recent name="$PROJECT_DIR$/src/App" />
       <recent name="$PROJECT_DIR$/src/App/init" />
@@ -276,28 +434,30 @@
       <updated>1578851632085</updated>
       <workItem from="1578851633729" duration="7502000" />
       <workItem from="1578949383778" duration="225000" />
-      <workItem from="1579345845932" duration="11036000" />
+      <workItem from="1579345845932" duration="11921000" />
+      <workItem from="1579457343008" duration="1412000" />
+      <workItem from="1580649120114" duration="16670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18763000" />
+    <option name="totallyTimeSpent" value="37730000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-665" y="-1058" width="1920" height="1058" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28541225" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21327014" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3192771" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.27432713" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Quokka" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -312,75 +472,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/gql/queryAllAvailablePets.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useQueryAllCustomers/gql/queryAllCustomers.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllPets/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/gql/queryAvailablePets.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/specialList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#8#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,51 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="e#8#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/bus/pet/profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#8#34#0" expanded="true" />
-            <element signature="e#140#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <element signature="e#8#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#50#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/gql/mutationCreateAccount.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -495,12 +539,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/index.js">
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <element signature="e#50#86#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/asd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/logIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/gql/mutationLogIn.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/gql/mutationCheckIn.graphql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/hooks/useCustomerAuth/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#8#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/gql/mutationCheckOut.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/components/HW/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,27 +624,194 @@
     <entry file="file://$PROJECT_DIR$/src/App/bus/customer/customer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="e#8#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/logIn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="25" column="116" selection-start-line="25" selection-start-column="116" selection-end-line="25" selection-end-column="116" />
+        <state relative-caret-position="629">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckOut/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#8#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/gql/queryAllAvailablePets.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/specialList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="83" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/customer/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllPets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="46" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/gql/queryAvailablePets.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAvailablePets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#8#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/gql/queryAllCheckedOutPets.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllCheckedOutPets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useQueryAllAvailablePets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="e#8#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/checkinPet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="77" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/checkOutPet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <marker date="1580675852303" expanded="true" signature="291:374" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/useCheckin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#8#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
+            <element signature="e#163#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/hooks/usePetReturned/gql/subscriptionPetReturned.graphql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/petReturned.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/bus/pet/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
+            <element signature="e#89#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/init/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1139">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#8#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>

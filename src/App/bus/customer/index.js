@@ -1,15 +1,9 @@
-// Core
-import React from 'react';
-
-// Components
 import { Customer } from './customer';
 import { List } from './list';
+import { LogIn } from './logIn';
 
-export const Customers = () => {
-  return (
-    <>
-      <Customer/>
-      <List/>
-    </>
-  )
-};
+export {
+  Customer,
+  LogIn,
+  List,
+}

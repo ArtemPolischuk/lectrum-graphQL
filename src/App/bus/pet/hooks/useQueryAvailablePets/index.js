@@ -6,5 +6,10 @@ import { loader } from 'graphql.macro';
 const queryAvailablePets = loader('./gql/queryAvailablePets.graphql');
 
 export const useQueryAvailablePets = () => {
-  return useQuery(queryAvailablePets);
+  const { loading, error, data } = useQuery(queryAvailablePets);
+
+  const pets = data ? data.availablePets : null;
+  console.log('data: ', data);
+  console.log('pets: ', pets);
+  return { loading, error, pets }
 };
